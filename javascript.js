@@ -4,3 +4,9 @@ function getComputerChoice(){
     else if (a === 2) return "paper";
     else if (a === 3) return "scissors";
 }
+
+function getHumanChoice(){
+    let userInput = prompt("Please enter your choice(rock/paper/scissors): ");
+    return userInput;
+}
+
