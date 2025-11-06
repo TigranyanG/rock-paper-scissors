@@ -63,20 +63,6 @@ function playGame(){
 
     }  
 
-    for(let i = 0; i < 5; i++){
-        playRound();
-        console.log(humanScore);
-        console.log(computerScore);
-    }
-    if (humanScore > computerScore){
-        console.log("Congratulations, you won the game!");
-    }
-    else if(computerScore > humanScore){
-        console.log("Pity, you lost the game!");
-    }
-    else{
-        console.log("Friendship wins! It's a tie.");
-    }
 }
 
 playGame();
